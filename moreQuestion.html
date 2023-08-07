@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/moreQuestion.css">
+    <title>Centro de Linguas</title>
+</head>
+<body>
+    <header>
+        <div id="mobile_menu">
+            <a href="./index.html" class="logo"><img src="assets/img/logo.png" alt="logo centro de linguas"></a>
+            <div class="button-menu">
+                <button id="botaoMenu">
+                    <img src="assets/img/menu.png" alt="menu icon">
+                </button>
+            </div>
+        </div>
+        <div id="menu">
+            <button id="botaoClose">
+                <img src="./assets/img/menu_img/x.png" alt="close">
+            </button>
+                <ul>
+                    <li>
+                        <a class="menu-text" href="./index.html#welcome-section" onclick="toggleMenu()"><img class="menu-icon" src="./assets/img/menu_img/home.png" alt="home icon">Página Inicial</a>
+                    </li>
+                    <li>
+                        <a class="menu-text" href="./index.html#faq" onclick="toggleMenu()"><img class="menu-icon" src="./assets/img/menu_img/question.png" alt="interrogation icon">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="menu-text" href="./index.html#equipe" onclick="toggleMenu()"><img class="menu-icon" src="./assets/img/menu_img/game.png" alt="controll icon">Quiz</a>
+                    </li>
+                    <li>
+                        <a class="menu-text" href="./index.html#equipe" onclick="toggleMenu()"><img class="menu-icon" src="./assets/img/menu_img/equipe.svg" alt="equipe icon">Equipe</a>
+                    </li>
+                    <li>
+                        <a class="menu-text" href="./index.html#localizado" onclick="toggleMenu()"><img class="menu-icon" src="./assets/img/menu_img/bus.svg" alt="bus icon">Horários de Onibus</a>
+                    </li>
+                    <li>
+                        <a class="menu-text" href="https://editor.mobilibus.com/web/bus2you/2i0xq#7643" onclick="toggleMenu()"><img class="menu-icon" src="./assets/img/menu_img/loc.svg" alt="equipe icon">Localização</a>
+                    </li>
+                    <li>
+                        <a class="menu-text" href="#" onclick="toggleMenu()"><img class="menu-icon" src="./assets/img/menu_img/increverse.png" alt="hand icon">Inscreva-se</a>  
+                    </li>
+                </ul>
+            </div>
+        <nav class="menu_desktop">
+            <div class="conteudo">
+                <a href="./index.html" class="logo"><img src="assets/img/logo.png" alt="logo centro de linguas"></a>
+            <ul>
+                <li>
+                    <a href="./index.html#welcome-section">Inicio</a>
+                </li>
+                <li>
+                    <a href="./index.html#faq">FAQ</a>
+                </li>
+                <li>
+                    <a href="./index.html#equipe">Equipe</a>
+                </li>
+                <li>
+                    <a href="./index.html#footer">Onde estamos?</a>
+                </li>
+                <li>
+                    <a href="./index.html#depoimentos">Depoimentos</a>
+                </li>
+                <li>
+                    <a href="https://editor.mobilibus.com/web/bus2you/2i0xq#7643">Onibus</a>
+                </li>
+            </ul>
+            <a href="#" type="button">Inscreva-se</a>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="tittle">
+            <p>Sobrou alguma</p>
+            <p>dúvida?</p>
+        </div>
+
+        <div class="form_overlay">
+            <form action="">
+                <img src="./assets/img/logo.svg" alt="logo">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome e sobrenome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@provedor.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" id="tel" name="tel" placeholder="(99) 99999-9999" required>
+                </div>
+                <div class="form-group">
+                    <label for="pergunta">Pergunta:</label>
+                    <textarea name="pergunta" id="question" required cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="content">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="logoCL">
+            </div>
+            <div class="social_midia">
+                <a href="#"><img src="assets/img/footer_img/instagram.svg" alt="instalogo"></a>
+                <a href="#"><img src="assets/img/footer_img/email.svg" alt="email"></a>
+                <a href="#"><img src="assets/img/footer_img/wpp.svg" alt="whatsapp"></a>
+                <a href="#"><img src="assets/img/footer_img/bpk.svg" alt="biopark logo"></a>
+            </div>
+            <div class="links">
+                <a href="#">Perguntas Frequentes</a>
+                <a href="#">Equipe</a>
+                <a href="#">FAQs</a>
+            </div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.1968701314686!2d-53.712804885001994!3d-24.616898684169367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f3bd3658fec82d%3A0x9298e43c320c4a86!2zQmlvcGFyayBFZHVjYcOnw6Nv!5e0!3m2!1spt-BR!2sbr!4v1685503567579!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+            <p class="reserved">Todos os direitos reservados</p>
+        </div>
+
+    </footer>
+
+    <script src="./assets/script/main.js"></script>
+</body>
+</html>

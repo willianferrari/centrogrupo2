@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.noticia {
+    margin-top:5px;
+    width: 350px;
+    height: 500px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.897);
+    position: relative;
+}
+
+.eventoexp{
+    bottom: 10px;
+    right: 20%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    background-color: #2617b3;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+
+}
+
+#email{
+        margin-top: 5px;
+        padding: 7px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.589);
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #ffffff;
+}
+#noticia1{
+    background-image: url('./patricio.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#noticia2{
+    color: white;
+    background-image: url('./hallow.jpg');
+  background-size: cover;
+  background-position: center;
+}
+button{
+    background-color: #2617b3;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.589);
+
+}
+#buttons{
+    margin-bottom: 5px;
+
+}
+
+@media (min-width: 820px) {
+    .noticia {
+      width: 650px;
+      height: 700px;
+    }
+    .eventoexp{
+        right: 50%;
+        bottom: 20px;
+        padding: 20px 40px;
+        border-radius: 15px;
+    }
+    #email{
+        padding: 20px 50px;
+        font-size: 20px;
+    }
+
+    button{
+        padding: 20px 30px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .noticia {
+      width: 950px;
+      height: 850px;
+    }
+    .eventoexp{
+        right: 65%;
+        bottom: 20px;
+        padding: 25px 45px;
+        border-radius: 20px;
+    }
+  }
